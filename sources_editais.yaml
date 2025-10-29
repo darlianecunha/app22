@@ -1,0 +1,14 @@
+# sources_editais.yaml
+rss_sources:
+  CAPES (notícias RSS): https://www.gov.br/capes/pt-br/assuntos/noticias/rss
+  CNPq (notícias RSS): https://www.gov.br/cnpq/pt-br/assuntos/noticias/ultimas-noticias/RSS
+  FINEP (notícias RSS): https://www.finep.gov.br/noticias?format=feed&type=rss
+  MCTI (notícias RSS): https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/noticias/RSS
+  FAPEMA (notícias RSS): https://www.fapema.br/portal/feed/
+
+html_sources:
+  CAPES - Editais/Chamadas: https://www.gov.br/capes/pt-br/assuntos/editais
+  CNPq - Chamadas Públicas: https://www.gov.br/cnpq/pt-br/chamadas
+  FINEP - Chamadas Públicas: https://www.finep.gov.br/chamadas-publicas
+  MCTI - Editais e Chamadas: https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/editais-e-chamadas
+  FAPEMA - Editais: https://www.fapema.br/portal/editais/
