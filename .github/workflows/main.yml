@@ -3,12 +3,11 @@ name: Monitor Editais Brasil
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 11 * * 2,4"  # Terça e quinta 08:00 no Brasil (UTC-3)
+    - cron: "0 11 * * 2,4"
 
 jobs:
   run:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
