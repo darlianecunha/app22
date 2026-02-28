@@ -20,3 +20,5 @@ def enviar_email(corpo_email, assunto=None):
     s.login(email_user, email_pass)
     s.send_message(msg)
     s.quit()
+if __name__ == "__main__":
+    main()
