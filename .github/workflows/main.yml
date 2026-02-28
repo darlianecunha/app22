@@ -3,7 +3,7 @@ name: Monitor Editais Brasil
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 11 * * 2,4"  # Terça e Quinta às 08:00 Brasil (UTC-3)
+    - cron: "0 11 * * 2,4"  # Terça e quinta 08:00 no Brasil (UTC-3)
 
 jobs:
   run:
@@ -28,5 +28,6 @@ jobs:
           EMAIL_USER: ${{ secrets.GMAIL_USER }}
           EMAIL_PASS: ${{ secrets.GMAIL_APP_PASS }}
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          RECENCIA_DIAS: "14"
         run: |
-          python run_editais.py
+          python monitor_editais_brasil.py
